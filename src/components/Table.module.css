@@ -1,0 +1,53 @@
+.Table {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.Menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.ToolBarContainer {
+  display: none;
+}
+
+.ToolBarContainer button {
+  margin-right: 1.5rem;
+}
+
+.ToolBarContainer button:hover,
+.ToolBarContainer button:focus {
+  cursor: pointer;
+  background-color: rgb(201, 201, 201);
+}
+.ToolBarContainer button:last-of-type {
+  margin-right: 0;
+}
+
+.Filter {
+  outline: none;
+  border: none;
+  padding: 0.5rem 0.5rem;
+  margin-right: 7.1rem;
+  border-radius: 0.4rem;
+  border: 1px solid;
+  font-size: 15px;
+}
+
+.ItemSelected_Menu {
+  justify-content: space-between;
+}
+.ItemSelected_ToolBar {
+  display: block;
+}
+
+.Editing {
+  visibility: visible;
+}
+
+.ShowArrow {
+  display: inline-block;
+}
